@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive Websit Maker</title>
+  </head>
+  <body>
+    <!-- Header Section Start Here -->
+    <header>
+      <a href="#" class="logo">Design<span>.</span></a>
+      <nav>
+        <ul>
+          <li style="--i: 1"><a href="#home" onclick="toggle();">Home</a></li>
+          <li style="--i: 1.5">
+            <a href="#about" onclick="toggle();">About</a>
+          </li>
+          <li style="--i: 2">
+            <a href="#Services" onclick="toggle();">Services</a>
+          </li>
+          <li style="--i: 2.5"><a href="#team" onclick="toggle();">Team</a></li>
+          <li style="--i: 3">
+            <a href="#contact" onclick="toggle();">Contact</a>
+          </li>
+          <li style="--i: 3.5"><a href="#faq" onclick="toggle();">FAQ</a></li>
+        </ul>
+      </nav>
+      <div class="toggle" onclick="toggle();"></div>
+    </header>
+
+    <!-- Home Section Start Here -->
+    <section id="home" class="home">
+      <div class="bg"></div>
+      <div
+        class="content"
+        data-aos="zoom-in-down"
+        data-aos-duration="1000"
+        data-aos-delay="1000"
+      >
+        <h2>Web Design & Development Services</h2>
+        <h3>You Have A Vision. We Have A Team To Get You There</h3>
+        <a href="#"><button class="btn btn1">Read More</button></a>
+        <a href="#"><button class="btn btn2">Get Started</button></a>
+      </div>
+
+      <div class="wave wave1"></div>
+      <div class="wave wave2"></div>
+      <div class="wave wave3"></div>
+    </section>
+
+    <!-- About Section Start Here -->
+    <section id="about" class="about">
+      <div class="titleBx">
+        <h2 class="title"><span>A</span>bout Us</h2>
+      </div>
+      <div class="row">
+        <div class="imgBx" data-aos="fade-up-right" data-aos-duration="1000">
+          <img src="images/about.svg" />
+        </div>
+        <div class="content" data-aos="fade-down-left" data-aos-duration="1000">
+          <h2>We Build Website That Build Your Business</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nulla
+            culpa quas illum cumque quidem, eaque non neque minus cupiditate
+            ratione deleniti asperiores, quasi enim quo excepturi impedit, ea
+            mollitia suscipit libero officiis. Id, velit ad expedita iure hic
+            maxime accusantium unde omnis corporis. Non soluta voluptatum quia.
+            Facilis, officia?
+          </p>
+          <a href="#"><button class="btn btn3">Read More</button></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Section Start Here -->
+    <section id="services" class="services">
+      <div class="titleBx">
+        <h2 class="title"><span>O</span>ur Services</h2>
+      </div>
+
+      <div class="row">
+        <div class="imgBx" data-aos="fade-down-right" data-aos-duration="1000">
+          <img src="images/development.svg" />
+        </div>
+        <div class="content" data-aos="fade-up-left" data-aos-duration="1000">
+          <h2>Website Development</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
+            quam veniam minus iste perspiciatis recusandae ex deleniti atque aut
+            nam ad error quaerat, optio quo voluptatem ipsum expedita illo ut.
+          </p>
+          <a href="#"><button class="btn btn1">Read More</button></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="content" data-aos="fade-up-right" data-aos-duration="1000">
+          <h2>Mobile Freindly</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
+            quam veniam minus iste perspiciatis recusandae ex deleniti atque aut
+            nam ad error quaerat, optio quo voluptatem ipsum expedita illo ut.
+          </p>
+          <a href="#"><button class="btn btn2">Read More</button></a>
+        </div>
+        <div class="imgBx" data-aos="fade-down-left" data-aos-duration="1000">
+          <img src="images/mobile.svg" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="imgBx" data-aos="fade-down-right" data-aos-duration="1000">
+          <img src="images/responsive.svg" />
+        </div>
+        <div class="content" data-aos="fade-up-left" data-aos-duration="1000">
+          <h2>Responsive Design</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
+            quam veniam minus iste perspiciatis recusandae ex deleniti atque aut
+            nam ad error quaerat, optio quo voluptatem ipsum expedita illo ut.
+          </p>
+          <a href="#"><button class="btn btn1">Read More</button></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="content" data-aos="fade-up-right" data-aos-duration="1000">
+          <h2>Web Hosting</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
+            quam veniam minus iste perspiciatis recusandae ex deleniti atque aut
+            nam ad error quaerat, optio quo voluptatem ipsum expedita illo ut.
+          </p>
+          <a href="#"><button class="btn btn2">Read More</button></a>
+        </div>
+        <div class="imgBx" data-aos="fade-down-left" data-aos-duration="1000">
+          <img src="images/hosting.svg" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="imgBx" data-aos="fade-down-right" data-aos-duration="1000">
+          <img src="images/seo.svg" />
+        </div>
+        <div class="content" data-aos="fade-up-left" data-aos-duration="1000">
+          <h2>SEO Freindly</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
+            quam veniam minus iste perspiciatis recusandae ex deleniti atque aut
+            nam ad error quaerat, optio quo voluptatem ipsum expedita illo ut.
+          </p>
+          <a href="#"><button class="btn btn1">Read More</button></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="content" data-aos="fade-up-right" data-aos-duration="1000">
+          <h2>Graphic Design</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
+            quam veniam minus iste perspiciatis recusandae ex deleniti atque aut
+            nam ad error quaerat, optio quo voluptatem ipsum expedita illo ut.
+          </p>
+          <a href="#"><button class="btn btn2">Read More</button></a>
+        </div>
+        <div class="imgBx" data-aos="fade-down-left" data-aos-duration="1000">
+          <img src="images/design.svg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Team Section Starts Here -->
+    <section id="team" class="team">
+      <div class="titleBx">
+        <h2 class="title">Our <span>T</span>eam</h2>
+      </div>
+
+      <div class="row">
+        <div class="card" data-aos="fade-right" data-aos-duration="1000">
+          <div class="imgBx">
+            <img src="images/team (1).jpg" />
+          </div>
+          <div class="content">
+            <h2>Someone Famous</h2>
+            <span>Web Designer</span>
+            <ul class="sci">
+              <li><a href="#" class="fab fa-facebook-f"></a></li>
+              <li><a href="#" class="fab fa-twitter"></a></li>
+              <li><a href="#" class="fab fa-instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-down"
+          data-aos-delay="300"
+          data-aos-duration="1500"
+        >
+          <div class="imgBx">
+            <img src="images/team (2).jpg" />
+          </div>
+          <div class="content">
+            <h2>Someone Famous</h2>
+            <span>Web Designer</span>
+            <ul class="sci">
+              <li><a href="#" class="fab fa-facebook-f"></a></li>
+              <li><a href="#" class="fab fa-twitter"></a></li>
+              <li><a href="#" class="fab fa-instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="card" data-aos="fade-left" data-aos-duration="1000">
+          <div class="imgBx">
+            <img src="images/team (3).jpg" />
+          </div>
+          <div class="content">
+            <h2>Someone Famous</h2>
+            <span>Web Designer</span>
+            <ul class="sci">
+              <li><a href="#" class="fab fa-facebook-f"></a></li>
+              <li><a href="#" class="fab fa-twitter"></a></li>
+              <li><a href="#" class="fab fa-instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section Start Here -->
+    <section id="contact" class="contact">
+      <div class="titleBx">
+        <h1 class="title">Contact <span>U</span>s</h1>
+      </div>
+
+      <div class="row">
+        <div
+          class="content"
+          data-aos="fade-down-right"
+          data-aos-duration="1000"
+        >
+          <h2>Sign Up to join our<br />Learning Community</h2>
+          <form>
+            <input type="text" placeholder="Enter Name" />
+            <input type="email" placeholder="Enter Email" />
+            <input type="password" placeholder="Enter Password" />
+            <div class="btnBx">
+              <a href="#"><button class="btn btn1">Sign Up</button></a>
+              <a href="#"><button class="btn btn2">Sign In</button></a>
+            </div>
+          </form>
+        </div>
+        <div class="imgBx" data-aos="fade-up-left" data-aos-duration="1000">
+          <img src="images/contact.svg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Faq Section Start Here -->
+    <section id="faq" class="faq">
+      <div class="titleBx">
+        <h1 class="title"><span>F</span>aq Questions</h1>
+      </div>
+
+      <div class="row">
+        <div class="imgBx" data-aos="fade-up-right" data-aos-duration="1000">
+          <img src="images/faq.svg" />
+        </div>
+
+        <div
+          class="accordion"
+          data-aos="fade-down-left"
+          data-aos-duration="1000"
+        >
+          <div class="accordion-item">
+            <button class="accordion-header active">
+              <span>
+                <i class="fas fa-angle-down"></i>
+              </span>
+              <h3>How Much Will It Cost ?</h3>
+            </button>
+            <div class="accordion-body active">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+              porro eum, minus iusto, molestias tenetur eaque explicabo
+              voluptatibus ipsum distinctio, non natus velit aspernatur tempore
+              libero nulla qui quidem necessitatibus.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span> <i class="fas fa-angle-down"></i></span>
+              <h3>How To Update Website ?</h3>
+            </button>
+            <div class="accordion-body">
+              Modi cupiditate autem asperiores debitis architecto? Cupiditate,
+              minima asperiores iure ad placeat voluptas, laboriosam quisquam
+              deleniti deserunt obcaecati recusandae? Eaque totam quaerat
+              beatae. Repellat quae eveniet sapiente. Quo, veniam nisi!
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span> <i class="fas fa-angle-down"></i></span>
+              <h3>Is Domain Provided Free ?</h3>
+            </button>
+            <div class="accordion-body">
+              Magnam enim omnis repellendus reiciendis atque iure explicabo
+              officia? Rerum ad amet laborum labore iste officiis vero, quia
+              culpa temporibus odit doloremque alias consequatur ratione aliquam
+              sit? Officia, at natus.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span> <i class="fas fa-angle-down"></i></span>
+              <h3>How Long It Takes To Design ?</h3>
+            </button>
+            <div class="accordion-body">
+              Ullam alias nesciunt quis numquam ea asperiores cum vel
+              reprehenderit accusamus assumenda nobis eaque natus possimus,
+              nihil, incidunt itaque a odit praesentium. Libero, minima! Eaque
+              harum nobis nostrum consectetur molestiae.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span> <i class="fas fa-angle-down"></i></span>
+              <h3>Is It Seo Freindly ?</h3>
+            </button>
+            <div class="accordion-body">
+              Ullam alias nesciunt quis numquam ea asperiores cum vel
+              reprehenderit accusamus assumenda nobis eaque natus possimus,
+              nihil, incidunt itaque a odit praesentium. Libero, minima! Eaque
+              harum nobis nostrum consectetur molestiae.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Start Here -->
+    <footer data-aos="fade-up" data-aos-duration="1000">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Services</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">affiliate Program</a></li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <h3>Get Help</h3>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Order Status</a></li>
+              <li><a href="#">Payment Options</a></li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <h3>Online Shop</h3>
+            <ul>
+              <li><a href="#">Watch</a></li>
+              <li><a href="#">Bag</a></li>
+              <li><a href="#">Shoes</a></li>
+              <li><a href="#">Dress</a></li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <h3>Follow Us</h3>
+            <ul class="f-sci">
+              <li>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
